@@ -2,8 +2,10 @@ package presentation;
 
 import metier.IMetier;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+@PropertySource("classpath:app.properties")
 public class PresentationXML {
     public static void main(String[] args) {
         // Chargement du contexte Spring à partir du fichier XML

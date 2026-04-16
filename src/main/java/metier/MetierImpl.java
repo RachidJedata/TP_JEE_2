@@ -25,4 +25,9 @@ public class MetierImpl implements IMetier {
     public void setDao(IDao dao) {
         this.dao = dao;
     }
+
+//    @PostConstruct
+//    private void init() {
+//        System.out.println("[TRACE] DAO injecté = " + dao.getClass().getSimpleName());
+//    }
 }
